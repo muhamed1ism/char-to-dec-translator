@@ -7,16 +7,17 @@ int main()
 {
   char a,c;
   int b;
-  printf("DECIMALNA VRIJEDNOST TIPKE\n");
-  printf("Kada zelite prekinuti program pritisnite ENTER dva puta!\n");
-  printf("S time ce vam se usput ispisat njegova decimalna vrijednost\n");
-  printf("Pritisnite tipku čiju ASCII vrijednost želite da znate: \n");
+  printf("DECIMAL VALUE OF THE KEY\n");
+  printf("To exit the program press ENTER twice!\n");
+  printf("That way it will display the value of ENTER and exit the program.\n");
+  printf("Press the key: \n");
   while(a!=10)
   {
   a = getch();
   b = toascii(a);
-  printf("ASCII vrijednost tipke koju ste unijeli je: %d\n", b);
+  printf("Decimal value of that key is: %d\n", b);
   }
+  printf("Press ENTER one more time to exit the program!\n");
   while(c!=10)
   {
     c=getch();

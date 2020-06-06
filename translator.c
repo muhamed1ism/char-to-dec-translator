@@ -16,8 +16,8 @@ int main()
   printf("Decimal value of that key is: %i\n", a);
   }
   printf("Press ENTER one more time to exit the program!\n");
-  while(b!=10)
+  while(b != 10)
   {
-    b=getch();
+    b = getch();
   }
 }

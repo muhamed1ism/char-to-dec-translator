@@ -12,7 +12,7 @@ int main()
   printf("Press the key: \n");
   while(a!=10)
   {
-  a = getch();
+  a = getche();
   printf("Decimal value of that key is: %i\n", a);
   }
   printf("Press ENTER one more time to exit the program!\n");

@@ -8,4 +8,4 @@ This can help you if you can't find decimal value of some key in ASCII table
 
 For me personally it's lot easier to just type some key and get its value 
 
-Than trying to find its value in ASCII table every time 
+than trying to find its value in ASCII table every time 
